@@ -1,13 +1,12 @@
 # LLM4BO: Large Language Models for Bayesian Optimization
-**AUTHOR:** Mattias Akke  
-**CONTACT:** [akkem@mit.edu](mailto:akkem@mit.edu), [mattias.akke@gmail.com](mailto:mattias.akke@gmail.com)
+**CONTACT:** [mattias.akke@gmail.com](mailto:mattias.akke@gmail.com)
 
-This repo intend to benchmark several different LLM methods for Bayesian Optimisation across two different domains. 
+This repository aims to benchmark several different LLM methods for Bayesian Optimization across two domains. 
 
 ## Project Structure
 
 ### `ALDE/`
-Bayesian Optimization of protein motifs with LLMs. Benchmarks traditional Bayesian Optimization methods against LLM-based approaches for optimizing 4-amino acid protein motifs. Includes generative reasoning models (GPT-5, Qwen3, DeepSeek-R1), agentic workflows, and fine-tuned models trained on synthetic optimization trajectories. See `ALDE/README.md`.
+Bayesian Optimization of protein motifs with LLMs. Benchmark traditional Bayesian Optimization methods against LLM-based approaches for optimizing 4-amino acid protein motifs. Includes generative reasoning models (GPT-5, Qwen3, DeepSeek-R1), agentic workflows, and fine-tuned models trained on synthetic optimization trajectories. See `ALDE/README.md`.
 
 ### `mols/`
 Molecular property prediction active learning framework. Modular benchmarking of LLM-based selectors vs traditional methods for molecular discovery, with multiple oracle models, selectors, and ablation tools. See `mols/README.md`.
