@@ -2,8 +2,10 @@
 
 This repository contains the implementation for benchmarking Large Language Models (LLMs) in protein active learning, comparing traditional Bayesian Optimization methods with LLM-based approaches for optimizing 4-amino acid protein motifs.
 
-It is heavily based on this paper: https://www.nature.com/articles/s41467-025-55987-8#Sec8
-and much of the code comes directly from https://github.com/jsunn-y/ALDE/tree/master
+Framework and data based on:  
+Yang, J., Lal, R. G., Bowden, J. C., Astudillo, R., Hameedi, M. A., Kaur, S., Hill, M., Yue, Y., & Arnold, F. H. (2025). *Active learning-assisted directed evolution*. Nature Communications, 16, Article 714. [https://www.nature.com/articles/s41467-025-55987-8](https://www.nature.com/articles/s41467-025-55987-8)
+Workflow comes directly from https://github.com/jsunn-y/ALDE/tree/master
+
 ## Overview
 
 The project evaluates different approaches to protein sequence optimization:

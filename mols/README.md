@@ -2,6 +2,9 @@
 
 A modular and extensible active learning framework for molecular property prediction using SMILES strings. The framework is designed to benchmark and test the use of LLM-based selectors in active learning, with a focus on reproducibility, extensibility, and robust evaluation.
 
+Data assembled by:  
+Gorantla, R., Kubincová, A., Suutari, B., Cossins, B. P., & Mey, A. S. J. S. (2024). *Benchmarking active learning protocols for ligand-binding affinity prediction*. Journal of Chemical Information and Modeling, 64(6), 1831–1849. [https://pubs.acs.org/doi/10.1021/acs.jcim.4c00220](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00220)
+
 ## Project Structure
 
 ```
@@ -248,8 +251,3 @@ Each repeat uses a different random seed (probabilistic benchmarking). The scrip
 - **Plots**: UMAP and metric plots are saved in the output directory for each experiment.
 - **Checkpoints**: Allow resuming experiments from any cycle.
 
-## Example Command-Line Usage
-
-```bash
-python bin/AL.py --model RandomForestOracle --selector LLMFatSelector --data data/TYK2.csv --batch_size 60 --initial_size 60
-```
