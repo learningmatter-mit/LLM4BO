@@ -63,13 +63,6 @@ ALDE/
 
 ## Installation
 
-### PerlMutter Prerequisites
-
-```bash
-module load conda/Miniforge3-24.7.1-0
-module load cuda/12.9
-```
-
 ### Environment Setup
 
 **Option 1: Create from YAML files (recommended)**
