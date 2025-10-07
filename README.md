@@ -15,6 +15,6 @@ Molecular property prediction active learning framework. Modular benchmarking of
 Each subdirectory contains its own detailed README with installation instructions, usage examples, and technical documentation.
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/ORG_NAME/LLM4BO/main/overview.png](https://raw.githubusercontent.com/learningmatter-mit/LLM4BO/refs/heads/main/llm-al_overview-1.png)" alt="LLM4BO Overview" width="600"/>
+  <img src="https://raw.githubusercontent.com/learningmatter-mit/LLM4BO/refs/heads/main/llm-al_overview-1.png" alt="LLM4BO Overview" width="600"/>
 </p>
 
