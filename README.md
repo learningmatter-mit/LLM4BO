@@ -1,4 +1,4 @@
-# LLM4BO: Large Language Models for Bayesian Optimization
+# LLM4BO: Evaluating Large Language Models for Bayesian Optimization
 **CONTACT:** [mattias.akke@gmail.com](mailto:mattias.akke@gmail.com)
 
 This repository aims to benchmark several different LLM methods for Bayesian Optimization across two domains. 
